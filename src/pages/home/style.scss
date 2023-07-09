@@ -1,0 +1,12 @@
+@import '../../utils/style/main-style.scss';
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    background: $light-grey;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
