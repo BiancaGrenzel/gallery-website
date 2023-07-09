@@ -1,0 +1,41 @@
+@import '../../utils/style/main-style.scss';
+
+.menu {
+    display: flex;
+    width: 287px;
+    height: 100%;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: $white;
+
+    &__title {
+      margin: 0;
+      font-family: Playfair Display;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: $black;
+    }
+
+    &__image {
+      width: 108px;
+      height: 108px;
+      border-radius: 64px;
+      background: #D0DFE5;
+    }
+
+    &__subtitle {
+      margin: 0;
+      font-family: Playfair Display;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: $black;
+    }
+  }
