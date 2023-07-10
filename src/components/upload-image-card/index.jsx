@@ -1,0 +1,12 @@
+import React from 'react';
+import UploadImage from '../../utils/assets/upload.svg';
+import './style.scss';
+
+export default function UploadImageCard() {
+  return (
+    <div className="upload-card">
+      <img className="upload-card__image" src={UploadImage} alt="upload" />
+      <p className="upload-card__title">Subir nova imagem</p>
+    </div>
+  );
+}

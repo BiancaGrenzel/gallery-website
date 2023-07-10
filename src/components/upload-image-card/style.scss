@@ -1,0 +1,22 @@
+.upload-card {
+    display: flex;
+    height: 249.8px;
+    width: 249.8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px dashed #B4B2B0;
+    background: #FFF;
+    cursor: pointer;
+
+    &__title {
+        color: #B4B2B0;
+        font-family: Iowan Old Style, serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
