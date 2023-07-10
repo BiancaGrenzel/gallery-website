@@ -9,11 +9,6 @@
         "sourceType": "module"
     },
     "rules": {
-        "import/no-extraneous-dependencies": [
-            "error",
-            {
-              "projectDependencies": false
-            }
-          ]
+        "import/no-extraneous-dependencies": "off"
     }
 }
