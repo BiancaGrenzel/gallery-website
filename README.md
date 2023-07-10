@@ -1,71 +1,57 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Gallery Website</h1>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+<div align="center"> 
+  <img src="https://www.bendigoregion.com.au/sites/default/files/banners/standard_web_page_banner_18.png" alt="gallery" width="100%" />
+</div>
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Resumo do projeto
+Projeto com o intuito de criar uma galeria de imagens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
+Link: https://gallery-project-40678.web.app
+<br/>
 
-### `npm test`
+## 🔨 Funcionalidades do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `Funcionalidade 1` `Buscagem de Imagens`: Esse sistema precisa estar apto a procurar por todas as imagens salvas.
+- `Funcionalidade 2` `Edição de Imagens`: O sistema precisa editar as imagens criadas.
+- `Funcionalidade 3` `Deletar Imagens`: Deve-se deletar a imagem selecionada pelo usuário.
+- `Funcionalidade 4` `Salvar Novas Imagens`: O usuário deve poder salvar novas imagens, anexando junto o nome da imagem e a data dela.
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✔️ Técnicas e tecnologias utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ``Javascript``
+- ``React``
+- ``SASS``
+- ``BEM``
+- ``React-Router-Dom``
+- ``Axios``
+- ``DOTENV``
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como instalar e configurar o projeto?
 
-### `npm run eject`
+- `Configure a api-key`: No website crudcrud.com, pegue a apiKey gerada e anexe no arquivo .env do projeto.
+- `Instalação de dependências`: Utilizando o comando npm install ou yarn, instale as dependências necessárias para rodar a aplicação.
+- `Rodar o projeto`: Com o comando npm start ou yarn start, inicie o projeto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como foi para resolver esse desafio?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Foi bastante desafiador, mas também foi uma ótima oportunidade para aprender e aprimorar minhas habilidades de desenvolvimento web. O projeto exigiu o uso de tecnologias como JavaScript, React, SASS e outras bibliotecas e ferramentas relacionadas. Além disso, foi necessário entender e implementar as funcionalidades necessárias para a galeria de imagens, como busca, edição, exclusão e adição de novas imagens.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A parte mais desafiadora foi a integração com a API para buscar e manipular as imagens. Tive que lidar com a autenticação e autorização usando a apiKey fornecida pela API, bem como implementar as requisições HTTP necessárias para obter, editar e excluir as imagens. Também foi importante lidar com o armazenamento local das imagens adicionadas pelo usuário, garantindo que elas fossem salvas corretamente e associadas com seus respectivos nomes e datas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ao longo do processo, enfrentei alguns obstáculos e erros, mas pude superá-los pesquisando, estudando documentações e contando com a comunidade de desenvolvedores. Isso me ajudou a entender melhor os conceitos envolvidos e encontrar soluções para os problemas encontrados.
 
-## Learn More
+No final, fiquei satisfeito com o resultado alcançado. O projeto da galeria de imagens se tornou uma aplicação funcional e amigável, permitindo aos usuários buscar, editar, excluir e adicionar novas imagens de forma simples e intuitiva.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Acredito que esse desafio contribuiu para o meu crescimento como desenvolvedor web, pois me proporcionou a oportunidade de aplicar meus conhecimentos e enfrentar desafios reais. Estou ansioso para enfrentar novos desafios e continuar aprendendo e aprimorando minhas habilidades.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# gallery-website
+## Link do Desafio
+`https://github.com/Skuth/burh-desafio-frontend/tree/main`
