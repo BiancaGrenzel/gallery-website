@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HiOutlineMenu } from 'react-icons/hi';
-import MenuOption from '../menu-option';
+import MenuOption from '../menu-options';
 import './style.scss';
 
 export default function MenuMobile() {
