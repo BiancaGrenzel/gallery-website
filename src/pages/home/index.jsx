@@ -5,6 +5,7 @@ import MenuDesktop from "../../components/menu-desktop";
 import MenuMobile from "../../components/menu-mobile";
 import UploadImageCard from "../../components/upload-image-card";
 import Modal from "../../components/modal";
+import UploadImageForm from "../../components/upload-image-form";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Home() {
         <UploadImageCard onClick={handleModal} />
       </div>
       <Modal isOpen={isModalOpen} onClose={handleModal}>
-        <h3>teste</h3>
+        <UploadImageForm />
       </Modal>
     </div>
   );
