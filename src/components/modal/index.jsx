@@ -1,4 +1,5 @@
 import React from "react";
+import { isMobile } from "react-device-detect";
 import { GrFormClose } from "react-icons/gr";
 import "./style.scss";
 
@@ -9,7 +10,7 @@ export default function Modal({ isOpen, onClose, children }) {
 
   return (
     <div className="modal">
-      <div className="modal__card">
+      <div className={`modal__card ${ isMobile && 'modal__card--mobile'}`}>
         <div className="modal__close-icon">
           <GrFormClose onClick={onClose} />
         </div>

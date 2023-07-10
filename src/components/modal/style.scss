@@ -1,25 +1,32 @@
-@import '../../utils/style/main-style.scss';
+@import "../../utils/style/main-style.scss";
 
 .modal {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(208, 223, 229, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    width: 400px;
+    height: auto;
+    background: $white;
+    border-radius: 16px;
+    padding: 32px;
+    position: relative;
+  }
+
+  &__card--mobile {
+    width: 80vw;
+    height: auto;
+  }
+
+  &__close-icon {
     position: absolute;
-    background-color: rgba(208, 223, 229, 0.50);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &__card {
-        background: $white;
-        border-radius: 16px;
-        padding: 32px;
-        position: relative;
-    }
-
-    &__close-icon {
-        position: absolute;    
-        top: 16px;
-        right: 16px;
-        cursor: pointer;
-    }
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+  }
 }
